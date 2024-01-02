@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Noto Naskh Arabic', serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #4F48EC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 45rem;
+    height: 40rem;
+    background-color: #100E34;
+    font-size: 1.8rem;
+    border-radius: 9px;
+    overflow: hidden;
+    padding: 3rem;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.3);
+}
+
+.box {
+    width: 100%;
+}
+
+.add-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#input{
+    width: 30rem;
+    height: 4rem;
+    border: none;
+    border-bottom: 2px solid #4F48EC;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #FFBF18;
+}
+
+#add-btn{
+    display: inline-block;
+    width: 8rem;
+    height: 4rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFBF18;
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.remove-icon{
+    height: 100%;
+    width: 100%;
+    background-color: #100E34;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove-btn{
+    display: inline-block;
+    width: 60%;
+    height: 60%;
+    color: #FFBF18;
+}
+
+.elements-box{
+    height: 25rem;
+    overflow: auto;
+}
+
+.element-box{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    gap: 0.8rem;
+
+    width: 100%;
+    height: 5rem;
+    background-color: #FFBF18;
+    border-radius: 5px;
+    border: 1.5px solid #FFBF18;
+    padding: 0.4rem 1.2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: #100E34;
+}
+
+.complited{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    gap: 0.8rem;
+
+    width: 100%;
+    height: 5rem;
+    background-color: #2f9e44;
+    border-radius: 5px;
+    border: 1.5px solid #2f9e44;
+    padding: 0.4rem 1.2rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+}
+
+.element-box:last-child{
+    margin-bottom: 0;
+}
+
+.jobs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 45rem;
+    height: 10rem;
+    background-color: #100E34;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #FFBF18;
+    border-radius: 9px;
+    overflow: hidden;
+    padding: 3rem;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.3);
+}

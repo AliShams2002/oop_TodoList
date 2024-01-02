@@ -1,0 +1,58 @@
+html{
+    font-size: 62.5%;
+}
+
+@media (max-width: 38em) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+
+        width: 50rem;
+        height: 55rem;
+    }
+
+    .elements-box{
+        height: 35rem;
+    }
+    .jobs {
+        width: 50rem;
+    }
+}
+
+@media (max-width: 32em) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+
+        width: 45rem;
+        height: 55rem;
+    }
+
+    .elements-box{
+        height: 35rem;
+    }
+    .jobs {
+        width: 45rem;
+    }
+}
+
+@media (max-width: 28em) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+
+        width: 42rem;
+        height: 55rem;
+    }
+
+    .elements-box{
+        height: 35rem;
+    }
+    .jobs {
+        width: 42rem;
+    }
+
+    #add-btn{
+        width: 6rem;
+    }
+}
