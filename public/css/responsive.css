@@ -7,7 +7,7 @@ html{
         display: grid;
         grid-template-columns: 1fr;
 
-        width: 50rem;
+        width: 48rem;
         height: 55rem;
     }
 
@@ -15,16 +15,16 @@ html{
         height: 35rem;
     }
     .jobs {
-        width: 50rem;
+        width: 48rem;
     }
 }
 
-@media (max-width: 32em) {
+@media (max-width: 31em) {
     .container{
         display: grid;
         grid-template-columns: 1fr;
 
-        width: 45rem;
+        width: 41rem;
         height: 55rem;
     }
 
@@ -32,26 +32,13 @@ html{
         height: 35rem;
     }
     .jobs {
-        width: 45rem;
-    }
-}
-
-@media (max-width: 28em) {
-    .container{
-        display: grid;
-        grid-template-columns: 1fr;
-
-        width: 42rem;
-        height: 55rem;
+        width: 41rem;
     }
 
-    .elements-box{
-        height: 35rem;
+    #input{
+        width: 28rem;
     }
-    .jobs {
-        width: 42rem;
-    }
-
+    
     #add-btn{
         width: 6rem;
     }
